@@ -4,7 +4,11 @@ html {
   font-size: 15px;
 }
 body {
-  background: navajowhite;
+  background: linear-gradient(
+    180deg,
+    rgba(85, 48, 152, 0.3) 0%,
+    rgba(83, 48, 152, 0) 100%
+  );
   background-size: cover;
   font-family: "Trebuchet MS", sans-serif;
   margin: 0;
