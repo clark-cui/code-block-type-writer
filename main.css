@@ -1,0 +1,73 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+body {
+  background: navajowhite;
+  background-size: cover;
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #23223a;
+  width: 15rem;
+  border-radius: 5px;
+  padding: 1.7rem;
+}
+.code {
+  white-space: nowrap;
+  font-size: 0.9rem;
+  color: white;
+}
+.code .imas {
+  font-size: 0.9rem;
+  color: yellow;
+  display: inline;
+}
+.c2 {
+  display: inline-block;
+  margin-top: 5%;
+}
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin-top: 10%;
+  font-size: 0.9rem;
+  color: cyan;
+  animation: typing 1.5s steps(20, end) forwards, blinking 0.75s infinite;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 25px;
+  }
+}
