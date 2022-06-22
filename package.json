@@ -1,0 +1,22 @@
+{
+  "name": "code-block-type-writer",
+  "version": "1.0.0",
+  "description": "[go](https://neon-froyo-ff5688.netlify.app/)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clark-cui/code-block-type-writer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clark-cui/code-block-type-writer/issues"
+  },
+  "homepage": "https://github.com/clark-cui/code-block-type-writer#readme",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
